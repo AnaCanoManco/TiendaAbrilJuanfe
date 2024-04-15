@@ -24,3 +24,28 @@
     opacity: 0.3;
     z-index: -1;
 }
+
+.navbar{
+    background-color: rgb(98, 192, 255);
+
+}
+.baner2{
+    background-image: url(img/empleados1920.jpg);
+    padding: 25%;
+    background-attachment: fixed;
+    background-position: top center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.baner2::after{
+    content: "";
+    position: absolute;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+    z-index: -1;
+}
